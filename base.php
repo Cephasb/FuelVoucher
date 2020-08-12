@@ -4,10 +4,10 @@ require_once('PHPMailer_v5.1/class.phpmailer.php');
 
 $mail  = new PHPMailer();   
 $mail->IsSMTP();                           // Set mailer to use SMTP
-$mail->Host = 'www.perltechnologies.com';             // Specify main and backup SMTP servers
+$mail->Host = '*********';             // Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                     // Enable SMTP authentication
-$mail->Username = 'rtp@rtp.softrentgh.com';          // SMTP username
-$mail->Password = 'Streetz99@1'; // SMTP password
+$mail->Username = '******';          // SMTP username
+$mail->Password = '******'; // SMTP password
 $mail->SMTPSecure = 'tls';                  // Enable TLS encryption, `ssl` also accepted
 $mail->Port = 26;
 /**
@@ -17,8 +17,8 @@ $mail->Port = 465; //26 //587
 $mail->SMTPDebug  = 1;
 
 $host = "localhost";
-$username = "perlqcod_fuel";
-$password = "perlqcodfuel";
+$username = "******";
+$password = "******";
 $dbname = "perlqcod_puma";
 
 $conn = new mysqli($host, $username, $password, $dbname);
