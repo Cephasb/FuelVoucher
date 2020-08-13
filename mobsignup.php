@@ -44,7 +44,7 @@ $request = curl_init('https://www.txtconnect.co/v2/app/api/send/sms.json');
 curl_setopt($request, CURLOPT_POST, true);
 curl_setopt($request, CURLOPT_SSL_VERIFYPEER, false);
 curl_setopt($request, CURLOPT_POSTFIELDS, array(
-    'token' => '268d368d2e9848a1378878cb8bf273c8c107f320',
+    'token' => '****************',
     'message' => urlencode($sms),
     'sender' => 'PUMA ENERGY',
     'recipients' => $phone
