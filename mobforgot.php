@@ -47,8 +47,8 @@ $message='<html>
 </body>
 </html>';
  
-$mail->From       = "info@softrentgh.com";
-$mail->FromName   = "PUMA ENERGY";
+$mail->From       = "***********";
+$mail->FromName   = "***********";
 $mail->Subject    = $subject;
 $mail->MsgHTML($message);
 $mail->AddAddress($email);
